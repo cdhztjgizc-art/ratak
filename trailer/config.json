@@ -1,0 +1,28 @@
+{
+  "title": "ČERNÝ OREL",
+  "intro_lines": ["Hranice padla.", "Zbyla jen jedna letka.", "Říkají jí Černý orel."],
+  "gameplay_captions": ["INTENZIVNÍ PŘESTŘELKY", "PŘESNOST ROZHODUJE", "PŘEŽIJ CHAOS"],
+  "modes": [
+    {"name": "TÝMOVÝ DEATHMATCH", "desc": "Dva týmy. Jeden cíl. Nejvíc zásahů vyhrává.", "players": "6 VS 6", "icon": "crosshair"},
+    {"name": "DOMINACE", "desc": "Obsaď a udrž klíčové body na mapě.", "players": "8 VS 8", "icon": "flag"},
+    {"name": "HLEDEJ A ZNIČ", "desc": "Polož nálož, nebo ji zneškodni. Bez respawnu.", "players": "5 VS 5", "icon": "bomb"},
+    {"name": "PŘEŽITÍ", "desc": "Odraž nekonečné vlny nepřátel se svou četou.", "players": "1–4 KOOP", "icon": "skull"}
+  ],
+  "weapons": [
+    {"name": "OREL-AR7", "class": "ÚTOČNÁ PUŠKA", "kind": "ar",
+     "stats": {"POŠKOZENÍ": 0.62, "DOSTŘEL": 0.66, "KADENCE": 0.72, "OVLADATELNOST": 0.58}},
+    {"name": "SOKOL-SR2", "class": "ODSTŘELOVACÍ PUŠKA", "kind": "sniper",
+     "stats": {"POŠKOZENÍ": 0.95, "DOSTŘEL": 0.97, "KADENCE": 0.18, "OVLADATELNOST": 0.30}},
+    {"name": "VOSA-9", "class": "SAMOPAL", "kind": "smg",
+     "stats": {"POŠKOZENÍ": 0.42, "DOSTŘEL": 0.35, "KADENCE": 0.94, "OVLADATELNOST": 0.88}}
+  ],
+  "attachments": [
+    {"name": "KOLIMÁTOR", "slot": "optic", "effect": "+20 % RYCHLOST MÍŘENÍ"},
+    {"name": "TLUMIČ", "slot": "muzzle", "effect": "SKRYTÍ NA RADARU"},
+    {"name": "TAKTICKÁ RUKOJEŤ", "slot": "grip", "effect": "−25 % ZPĚTNÝ RÁZ"},
+    {"name": "ROZŠÍŘENÝ ZÁSOBNÍK", "slot": "mag", "effect": "+15 NÁBOJŮ"},
+    {"name": "LASEROVÝ MODUL", "slot": "laser", "effect": "+30 % PŘESNOST Z BOKU"}
+  ],
+  "tagline": "VZLÉTNI. ZAMĚŘ. ZASÁHNI.",
+  "release": "JIŽ BRZY"
+}
